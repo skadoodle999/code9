@@ -13,7 +13,7 @@ terraform {
   }
   backend "s3" {
     bucket = "mojbaket2"
-    key    = "terraform/wordp"
+    key    = "terraform/wordpress"
     region = "us-east-1"
   }
 }
